@@ -1,0 +1,201 @@
+1) What is SDLC?
+
+=> SDLC is a structure imposed on the development of a software product that defines the
+process
+for planning, implementation, testing, documentation, deployment, and ongoing
+maintenance
+and support. There are a number of different development models. 
+=> Waterfall model
+=> Itretive model
+=> Spiral model
+=> Agile model
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2) What is SRS?
+
+=> SRS (Software Requirements Specification)
+=> A software requirements specification (SRS) is a complete description of the behavior of the
+system to be developed.
+=> It includes a set of use cases that describe all of the interactions that the users will have with
+the software
+=> Recommended approaches for the specification of software requirements are described by
+IEEE 830-1998.
+=> This standard describes possible structures, desirable contents, and qualities of a software
+requirements specification. 
+
+=> TYPES OF REQUIREMENTS 
+.Customer Requirements
+.Functional Requirements
+.Non-Functional Requirements 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3) What is OOP?
+
+=> OOP(Object Oriented Programming)
+.Identifying objects and assigning responsibilities to these objects. 
+.Objects communicate to other objects by sending messages. 
+.Messages are received by the methods of an object 
+.An object is like a black box.
+.The internal details are hidden.
+.Object is derived from abstract data type 
+.Object-oriented programming has a web of interacting objects, each house-keeping its own 
+ state. 
+.Objects of a program interact by sending messages to each other.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+4) Write basic concept of oop
+
+=>Object 
+. Class 
+. Encapsulation 
+. Inheritance 
+. Polymorphism 
+     Overriding 
+     Overloading 
+. Abstraction 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+5) What is object?
+
+=> object:Any entity which has own state and behaviour 
+ex:Any real life things
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+6) What is class?
+
+=> class:collection of objects
+ex:Huamn body
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+7) What is inheritance?
+
+=> inheritance:When one object acquire all the properties and 
+behaviour of parent class
+ex:father-son
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+8) What is polymorphisam?
+
+=> polymorphism:Many ways to perform anything
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+9) What is SQL?
+
+=> SQL is Structured Query Language, which is a computer language for storing, manipulating 
+and retrieving data stored in relational database. 
+.  SQL is the standard language for Relation Database System. All relational database 
+management systems like MySQL, MS Access, and Oracle, Sybase, Informix, postgres and 
+SQL Server use SQL as standard database language. 
+.  Also, they are using different dialects, such as: 
+.  MS SQL Server using T-SQL, ANSI SQL 
+.  Oracle using PL/SQL, 
+.  MS Access version of SQL is called JET SQL (native format) etc
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+10) Write SQL commands 
+
+=>DDL – Data Definition Language 
+. DML – Data Manipulation Language 
+. DCL – Data Control Language 
+. DQL – Data Query Language
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+11) Write SDLC phases with basic introduction 
+
+1) Requirement Gathering
+. Features 
+. Usage scenarios
+. Inadequately captured or expressed in the first place
+. Build constant feedback into the project plan 
+. Requirements definitions usually consist of natural language, supplemented by (e.g., 
+UML) diagrams and tables.
+
+=> Requirement Types:
+1)Functional:it's changable
+
+2)Non Functional:it's Non Changable
+
+. We can use Language,Diagrams,Tables
+
+2) Analysis Phase
+. The analysis phase defines the requirements of the system, independent of how these 
+requirements will be accomplished.
+. This phase defines the problem that the customer is trying to solve. 
+. The deliverable result at the end of this phase is a requirement document. 
+. Ideally, this document states in a clear and precise fashion what is to be built. 
+. This analysis represents the “what” phase. 
+. This phase represents the “how” phase. 
+. The design may include the usage of existing components. 
+
+3) Design Phase
+. Design Architecture Document 
+. Implementation Plan 
+. Critical Priority Analysis 
+. Performance Analysis 
+. Test Plan
+
+4) Implementation Phase
+. In the implementation phase, the team builds the components either from scratch or by 
+composition. 
+. Given the architecture document from the design phase and the requirement document from 
+the analysis phase, the team should build exactly what has been requested, though there is 
+still room for innovation and flexibility. 
+. For example, a component may be narrowly designed for this particular system, or the 
+component may be made more general to satisfy a reusability guideline. 
+.Implementation - Code 
+. Critical Error Removal 
+.The implementation phase deals with issues of quality, performance,baselines, libraries, and debugging. 
+
+5)Testing Phase 
+. Simply stated, quality is very important. Many companies have not learned that quality is 
+important and deliver more claimed functionality but at a lower quality level. 
+. It is much easier to explain to a customer why there is a missing feature than to explain to a 
+customer why the product lacks quality. 
+. A customer satisfied with the quality of a product will remain loyal and wait for new 
+functionality in the next version. 
+. Quality is a distinguishing attribute of a system indicating the degree of excellence. 
+. Regression Testing 
+. Internal Testing 
+. Unit Testing 
+. Application Testing 
+. Stress Testing 
+
+6) Maintanance Phase
+. Software maintenance is one of the activities in software engineering, and is the process of 
+enhancing and optimizing deployed software (software release), as well as fixing defects. 
+. Software maintenance is also one of the phases in the System Development Life Cycle 
+(SDLC),
+as it applies to software development. The maintenance phase is the phase which comes 
+after deployment of the software into the field.
+.configuration and version management 
+. reengineering (redesigning and refactoring) 
+. updating all analysis, design and user documentation 
+. Repeatable, automated tests enable evolution and refactoring 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+12) Write phases of spiral model
+
+. When costs there are a budget constraint and risk evaluation is important. 
+. For medium to high-risk projects. 
+. Long-term project commitment because of potential changes to 
+economic priorities as the requirements change with time. 
+. Customer is not sure of their requirements which are usually the case. 
+. Requirements are complex and need evaluation to get clarity. 
+. New product line which should be released in phases to get enough customer feedback. 
+. Significant changes are expected in the product during the development cycle.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+13) Write agile menifesto priciple
+
+.Individuals and interactions - in agile development, self-organization and motivation are 
+important, as are interactions like co-location and pair programming. 
+. Working software - Demo working software is considered the best means of 
+communication 
+with the customer to understand their requirement, instead of just depending on 
+documentation. 
+. Customer collaboration - As the requirements cannot be gathered completely in the 
+beginning 
+of the project due to various factors, continuous customer interaction is very important to get 
+proper product requirements.. 
+. Responding to change - agile development is focused on quick responses to change and 
+continuous development. 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+14) What is join?
+
+=> An SQL Join is an operation that combines records from two or more tables. This is done by matching keys between tables. 
+It comes in handy when we want to correlate a lot of information stored in multiple tables to make more sense of the information or to answer core business questions in any sort of enterprise environment
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+15) Write types of join
+
+. INNER JOIN
+. LEFT JOIN
+. RIGHT JOIN
+. FULL JOIN 
